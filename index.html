@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html and css </title>
+    <style>
+        .main_container {
+            display: flex;
+            align-items: center;
+            margin: auto
+        }
+
+        #h_div {
+            width: 25%;
+            border: 1px solid black;
+            margin: 10px;
+            padding: 0px 10px;
+        }
+
+        #text_format {
+            width: 25%;
+            border: 1px dotted black;
+            margin: 10px;
+
+        }
+
+        #description_list {
+            width: 25%;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 10px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+
+        #form_container {
+            width: 25%;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        input[type=text] {
+            padding: 5px 20px;
+            margin: 2px 0;
+            box-sizing: border-box;
+            color: red;
+        }
+
+        input:focus {
+            background-color: black;
+            border: 2px solid blue;
+        }
+
+        .table_container {
+            margin: 5%;
+            padding: 2%;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #050505;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="main_container">
+        <div id="h_div">
+            <h1>HTML Element </h1>
+            <h2>hello h2 tag</h2>
+            <h3>hello h2 tag</h3>
+            <h4>hello h2 tag</h4>
+            <h5>hello h2 tag</h5>
+            <h6>hello h2 tag</h6>
+            <p>paragraph tag</p>
+        </div>
+
+        <div id="text_format">
+            <i>This is test message italic</i>
+            <p>This is <del>delete</del></p>
+        </div>
+        <div id="description_list">
+            <p>description list</p>
+            <dl>
+                <dt>home </dt>
+                <dt>home </dt>
+                <dt>home </dt>
+                <dt>home </dt>
+            </dl>
+        </div>
+        <div id="form_container">
+            <h3>Form </h3>
+            <form action="#">
+                <input type="text" id="name" placeholder="Enter name"><br>
+                <input type="text" id="email" placeholder="Enter email"><br>
+                <input type="text" id="passsword" placeholder="Enter password"><br>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="table_container">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Contact</th>
+                <th>city</th>
+            </tr>
+            <tr>
+                <td>Naresh</td>
+                <td>Naresh</td>
+                <td>Naresh</td>
+            </tr>
+            <tr>
+                <td>11111111</td>
+                <td>11111111</td>
+                <td>11111111</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
